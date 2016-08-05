@@ -1,0 +1,8 @@
+[05-Aug-2016 05:01:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/wp-content/plugins/jigoshop/templates/admin/migration-information.php on line 53
+[05-Aug-2016 05:01:10 UTC] PHP Stack trace:
+[05-Aug-2016 05:01:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/wp-admin/admin.php:0
+[05-Aug-2016 05:01:10 UTC] PHP   2. do_action() /home/ubuntu/workspace/wp-admin/admin.php:236
+[05-Aug-2016 05:01:10 UTC] PHP   3. call_user_func_array:{/home/ubuntu/workspace/wp-includes/plugin.php:525}() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[05-Aug-2016 05:01:10 UTC] PHP   4. JigoshopMigrationInformation->render() /home/ubuntu/workspace/wp-includes/plugin.php:525
+[05-Aug-2016 05:01:10 UTC] PHP   5. include() /home/ubuntu/workspace/wp-content/plugins/jigoshop/admin/jigoshop-admin-migration-information.php:92
+[05-Aug-2016 05:11:16 UTC] WordPress database error Duplicate key name 'location_type_code' for query ALTER TABLE wp_woocommerce_tax_rate_locations ADD KEY location_type_code (location_type(40),location_code(90)) made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), call_user_func_array, WC_Install::check_version, WC_Install::install, WC_Install::create_tables, dbDelta
